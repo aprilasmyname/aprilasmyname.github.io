@@ -1,0 +1,133 @@
+/* imports of the fonts to use in the html/css */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+/* Style font for text */
+span {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Playwrite CL', sans-serif;
+    font-weight: 100;
+}
+
+/* Style of the upper area (header)  */
+.bar_links {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+}
+
+/* Imagen settings */
+.mi_imagen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    height: auto;
+    max-width: 30vw;
+    max-height: 75vh;
+
+}
+
+/* eliminates the underline in the links (in this case, in the insta link) */
+#insta {
+    text-decoration: none;
+}
+
+/* logo ig size adjust */
+.mi_ig {
+    height: auto;
+    max-width: 15px;
+}
+
+/* header style config */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+#nav_bar{
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.logo {
+    font-family: 'Playwrite CL', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+/* Config of side-by-side photos and text */
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+    text-align: center;
+}
+
+#gallery_photo {
+    margin-top: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* photo of the presentation -about- */
+.imagen_costado {
+    width: 150px;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 200px
+}
+
+/* Config of the style display in the text of the -about- section */
+#about {
+    display: block;
+    flex: 1;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin-top: 160px;
+}
+
+#contact {
+    margin-bottom: 145px;
+}
